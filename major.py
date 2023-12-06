@@ -12,4 +12,4 @@ from IPython.display import Image
 from IPython.core.display import HTML
 # tranforming json file into a pandas dataframe library
 from pandas.io.json import json_normalize
-print(\"All packages imported!\")
+print("All packages imported!")
