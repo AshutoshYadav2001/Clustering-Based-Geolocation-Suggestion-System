@@ -13,3 +13,18 @@ from IPython.core.display import HTML
 # tranforming json file into a pandas dataframe library
 from pandas.io.json import json_normalize
 print("All packages imported!")
+
+dfstudents=pd.read_csv('food_coded.csv')
+
+dfclean=dfstudents[['cook','eating_out','employment','ethnic_food','exercise','fruit_day','income','on_off_campus','pay_meal_out','sports','veggies_day']]
+dfclean.dropna(axis=0,inplace=True)
+dfclean.head()
+
+plt.figure(figsize=(20, 10))
+#plt.xticks(rotation='vertical')
+sns.boxplot
+
+ax = sns.boxplot(data = dfclean)
+ax.tick_params(labelsize=20)
+plt.xticks(rotation=45, ha='right')
+plt.show()
