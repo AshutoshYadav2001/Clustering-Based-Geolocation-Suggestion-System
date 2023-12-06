@@ -92,3 +92,24 @@ dataframe_filtered.columns = [column.split('.')[-1] for column in dataframe_filt
 #dataframe_filtered.drop([4,17,18,21,24,30,43],axis=0,inplace=True) #remove some unwanted locations like hotels
 dataframe_filtered.drop(['country','region','locality'],axis=1,inplace=True) #no need for those columns as we know we're in Bangalore,IN
 dataframe_filtered
+
+#define coordinates of the college
+map_bang=folium.Map(location=[12.971599,77.594566],zoom_start=12)
+# instantiate a feature group for the incidents in the dataframe
+locations = folium.map.FeatureGroup()
+
+latitudes = list(dataframe_filtered.lat)
+longitudes = list( dataframe_filtered.lng)
+labels = list(dataframe_filtered.name)
+
+for lat, lng, label in zip(latitudes, longitudes, labels):
+    folium.Marker([lat, lng], popup=label).add_to(map_bang)    
+    
+# add incidents to map
+map_bang.add_child(locations)
+
+# add incidents to map
+map_bang.add_child(locations)
+
+map_bang
+
