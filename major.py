@@ -28,3 +28,20 @@ ax = sns.boxplot(data = dfclean)
 ax.tick_params(labelsize=20)
 plt.xticks(rotation=45, ha='right')
 plt.show()
+
+# set number of clusters
+kclusters = 3
+
+# run k-means clustering
+kmeans = KMeans(n_clusters=kclusters, random_state=0).fit(dfclean)
+dfclean['Cluster']=kmeans.labels_
+
+fig, axes = plt.subplots(1,kclusters, figsize=(20, 10), sharey=True)
+axes[0].set_ylabel('Coded Values', fontsize=25)
+
+for k in range(kclusters):
+    plt.sca(axes[k])
+    plt.xticks(rotation=45,ha='right')
+    sns.boxplot(data = dfclean[dfclean['Cluster'] == k].drop('Cluster',1), ax=axes[k])
+
+plt.show()
