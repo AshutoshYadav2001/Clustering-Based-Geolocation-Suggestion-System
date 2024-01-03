@@ -1,6 +1,6 @@
 # Clustering Based Geolocation Suggestion System
 
-# Introduction/Business Problem:
+## Introduction/Business Problem:
 
 In the fast moving, effort-intense environment that a student inhabits,It’s a frequent occurrence
 that one is too tired to fix oneself a home-cooked meal. And of course, even if one gets
@@ -24,7 +24,7 @@ tastes would be ideal, since one would want every guest to have something to the
 
 Using K-Means Clustering, I found the best accomodation for students in University of Petroleum and Energy Studies (UPES), Deharadun by classifying accomodation for incoming students basis their preferences on amenities, budget and proximity to the college.
 
-# K-means Clustering on Location Data
+## K-means Clustering on Location Data
 
 Three prominent clusters emerged after applying the method on the data:
 
@@ -34,7 +34,7 @@ Three prominent clusters emerged after applying the method on the data:
 
 ● Cluster 2(Red): Restaurants and groceries are relatively hard to find.
 
-# Result
+## Result
 
 The outcome of the project is a robust and user-friendly recommendation system designed to
 assist students in selecting optimal accommodation options in a new city. The key features and
@@ -53,7 +53,7 @@ and accessible representation of accommodation choices, aiding users in quickly 
 and comparing options.
 
 
-# Discussion
+## Discussion
 
 Ideally, students should be maximised at the Green(Cluster 0) locations since both kinds of
 students can be catered to there, and obviously, unless renting their own house, it’s very difficult
@@ -73,7 +73,7 @@ coverage.
 One thing I would like to note is that the foursquare data seems incomplete; Many locations
 seem to be missing or ill-classified. India definitely needs better locational data sets!
 
-# Conclusion
+## Conclusion
 
 In conclusion, this project introduces a robust recommendation system for students seeking
 accommodation in a new city, leveraging the powerful K-Means Clustering algorithm and
