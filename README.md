@@ -52,12 +52,15 @@ each accommodation option.
 and accessible representation of accommodation choices, aiding users in quickly assessing
 and comparing options.
 
+![I found out all the potential locations students could stay (that were reasonably close to the college of study)](C:\Users\yadav\OneDrive\Desktop\hostel.jpg)
+
 
 ## Discussion
 
 Ideally, students should be maximised at the Green(Cluster 0) locations since both kinds of
 students can be catered to there, and obviously, unless renting their own house, it’s very difficult
 to open a new housing for just a few students!
+
 Another aspect to think of is cost. One can easily notice, the further away from the college and
 the closer to the city centre one gets, the more options one finds for food.The same can be said
 about other amenities as well.The closer to the city centre, the more expensive property gets, as
