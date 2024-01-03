@@ -8,10 +8,12 @@ home-cooked meals every day, it is not unusual to want to go out for a good meal
 a while for social/recreational purposes. Either way, it’s a commonly understood idea that
 regardless of where one lives, the food one eats is an important aspect of the lifestyle one
 leads.
+
 Now, imagine a scenario where a person has newly moved into a new location. They already
 have certain preferences, certain tastes. It would save both the student and the food providers a
 lot of hassle if the student lived close to their preferred outlets. Convenience means better
 sales, and saved time for the customer.
+
 Food delivery apps aside, managers of restaurant chains and hotels can also leverage this
 information. For example, if a manager of a restaurant already knows the demographic of his
 current customers, they’d ideally want to open at a location where this demographic is at its
@@ -25,8 +27,11 @@ Using K-Means Clustering, I found the best accomodation for students in Universi
 # K-means Clustering on Location Data
 
 Three prominent clusters emerged after applying the method on the data:
-● Cluster 1(Green) Where both (fruits and vegetables) and (restaurants) are abundant
+
+● Cluster 1(Green) Where both (fruits and vegetables) and (restaurants) are abundant.
+
 ● Cluster 0(Yellow): Restaurants are plentiful, but groceries less so.
+
 ● Cluster 2(Red): Restaurants and groceries are relatively hard to find.
 
 
@@ -40,11 +45,13 @@ the closer to the city centre one gets, the more options one finds for food.The 
 about other amenities as well.The closer to the city centre, the more expensive property gets, as
 well as the cost of living. Therefore, in reality, Cluster 1 locations might be better value for
 money.
+
 Finally, Cluster 2 locations, while not ideal, offer the shortest travel times to college, and may be
 viable for students willing to compromise on food or making alternative arrangements. With the
 advent of food delivery apps, it is quite easy to get both groceries and prepared meals both, so
 there might be a few locations which could be classified as Yellow or Green depending on
 coverage.
+
 One thing I would like to note is that the foursquare data seems incomplete; Many locations
 seem to be missing or ill-classified. India definitely needs better locational data sets!
 
