@@ -25,9 +25,28 @@ Using K-Means Clustering, I found the best accomodation for students in Universi
 # K-means Clustering on Location Data
 
 Three prominent clusters emerged after applying the method on the data:
+
 ● Cluster 1(Green) Where both (fruits and vegetables) and (restaurants) are abundant
 ● Cluster 0(Yellow): Restaurants are plentiful, but groceries less so.
 ● Cluster 2(Red): Restaurants and groceries are relatively hard to find.
+
+# Result
+
+The outcome of the project is a robust and user-friendly recommendation system designed to
+assist students in selecting optimal accommodation options in a new city. The key features and
+achievements include:
+
+1. K-Means Clustering Implementation: Successful integration of the K-Means Clustering
+algorithm to categorize accommodation options based on student preferences, leading to
+distinct clusters that facilitate informed decision-making. 
+
+2. Geolocational Data Utilization: Effective use of geolocational data from the Foursquare API
+to enhance the recommendation system, providing insights into the amenities surrounding
+each accommodation option. 
+
+3. Visualization on Map: The visualization of clustered locations on a map offers an intuitive
+and accessible representation of accommodation choices, aiding users in quickly assessing
+and comparing options.
 
 
 # Discussion
@@ -47,6 +66,23 @@ there might be a few locations which could be classified as Yellow or Green depe
 coverage.
 One thing I would like to note is that the foursquare data seems incomplete; Many locations
 seem to be missing or ill-classified. India definitely needs better locational data sets!
+
+# Conclusion
+
+In conclusion, this project introduces a robust recommendation system for students seeking
+accommodation in a new city, leveraging the powerful K-Means Clustering algorithm and
+geolocational data. The system addresses the inherent challenges students face in selecting
+suitable housing options by considering their preferences for amenities, budget constraints, and
+location proximity. By employing K-Means Clustering, the project efficiently categorizes
+accommodation choices into distinct clusters, providing a user-friendly interface for informed
+decision-making. The integration of geolocational data from the Foursquare API enhances the
+system's ability to recommend locations with relevant amenities. Through stages of data
+collection, cleaning, visualization, and algorithmic clustering, the project simplifies the complex
+task of finding optimal living arrangements for students. The results are presented visually on a
+map, offering a clear representation of clustered locations. This project not only streamlines the
+accommodation selection process but also exemplifies the practical application of data science
+methodologies in addressing real-life challenges, serving as a valuable tool for students
+transitioning to
 
 
 
