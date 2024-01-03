@@ -52,7 +52,7 @@ each accommodation option.
 and accessible representation of accommodation choices, aiding users in quickly assessing
 and comparing options.
 
-![I found out all the potential locations students could stay (that were reasonably close to the college of study)](C:\Users\yadav\OneDrive\Desktop\hostel.jpg)
+![I found out all the potential locations students could stay (that were reasonably close to the college of study)](https://drive.google.com/file/d/185v10D1STtLPMd1-dk9k1unpEzfjwGyu/view?usp=drive_link)
 
 
 ## Discussion
