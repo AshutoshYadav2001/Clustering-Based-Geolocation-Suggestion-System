@@ -34,6 +34,9 @@ Three prominent clusters emerged after applying the method on the data:
 
 ● Cluster 2(Red): Restaurants and groceries are relatively hard to find.
 
+![location](https://github.com/AshutoshYadav2001/Clustering-Based-Geolocation-Suggestion-System/assets/127925686/533d9ae0-1a4a-46da-ab3c-477dea902c44)
+
+
 ## Result
 
 The outcome of the project is a robust and user-friendly recommendation system designed to
@@ -52,7 +55,8 @@ each accommodation option.
 and accessible representation of accommodation choices, aiding users in quickly assessing
 and comparing options.
 
-![I found out all the potential locations students could stay (that were reasonably close to the college of study)](https://drive.google.com/file/d/185v10D1STtLPMd1-dk9k1unpEzfjwGyu/view?usp=drive_link)
+
+![hostel](https://github.com/AshutoshYadav2001/Clustering-Based-Geolocation-Suggestion-System/assets/127925686/7d6b37dc-d267-4998-a7a1-19a3a690e895)
 
 
 ## Discussion
